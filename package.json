@@ -1,0 +1,31 @@
+{
+    "name": "form-builder",
+    "version": "1.0.0",
+    "author": "Dmitry Tychinin",
+    "license": "ISC",
+    "description": "Form Builder pet project",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/tde2803/form-builder.git"
+    },
+    "scripts": {
+        "dev": "webpack-dev-server"
+    },
+    "devDependencies": {
+        "css-loader": "7.1.2",
+        "html-webpack-plugin": "5.6.0",
+        "style-loader": "^4.0.0",
+        "ts-loader": "^9.5.1",
+        "tsconfig-paths-webpack-plugin": "4.1.0",
+        "webpack": "5.94.0",
+        "webpack-cli": "5.1.4",
+        "webpack-dev-server": "5.1.0"
+    },
+    "dependencies": {
+        "@tde2803/design-system": "1.0.2",
+        "@types/react": "18.3.5",
+        "@types/react-dom": "18.3.0",
+        "react": "18.3.1",
+        "react-dom": "18.3.1"
+    }
+}
